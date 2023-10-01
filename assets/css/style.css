@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    text-decoration: none;
+}
+
+table tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+table td {
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px auto;
+    margin: 150px auto; 
+    width:1200px; 
+    background-color: whitesmoke;
+}
+
+.socmed {
+    margin: 40px auto; 
+}
+
+.cards {
+    margin: 50px auto;
+    width:350px;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.contact {
+    background-color: #5C5470;
+    padding:8px 16px;
+    border-radius: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #dbdbdb;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-left ul li {
+    margin-right: 35px;
+    font-size: 18px;
+}
+
+.nav-left a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-left a:hover{
+    color: orange;
+}
+
+.nav-left img{
+    margin-right: 40px;
+}
+
+.nav-right a {
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px; 
+    padding: 10px 18px;
+}
+
+form {
+    width: 500px;
+    margin: 60px auto;
+}
+
+form h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+button{
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px; 
+    padding: 10px 20px;
+}
+
+.submit-btn {
+    text-align: right;
+}
