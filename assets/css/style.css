@@ -88,6 +88,10 @@ nav {
     padding: 10px 18px;
 }
 
+.nav-right a:hover{
+    color: orange;
+}
+
 form {
     width: 500px;
     margin: 60px auto;

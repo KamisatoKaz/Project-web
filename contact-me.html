@@ -48,9 +48,9 @@
             <div>
                 <label for="in-subject">Subject</label>
                 <select id="in-subject">
-                    <option>Frontend Developer</option>
-                    <option>Backend Developer</option>
-                    <option>Fullstack Developer</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Fullstack Developer">Fullstack Developer</option>
                 </select>
             </div>
         
@@ -60,8 +60,9 @@
             </div>
         
             <div class="submit-btn">
-                <button>Submit</button>
+                <button type="button" onclick="getData()">Submit</button>
             </div>
         </form>
     </body>
+    <script src="./assets/js/script.js"></script>
 </html>
