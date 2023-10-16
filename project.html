@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>My Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="./assets/css/project.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <img src="./assets/logo.png" alt="logo"/>
+                    <li>
+                        <a href="./index.html" >Home</a>
+                    </li>
+                    <li>
+                        <a href="./project.html">Project</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <a href="./contact-me.html">Contact Me</a>
+            </div>
+        </nav>
+        </nav>
+        <!-- End Navbar -->
+
+        <div class="project">
+            <div class="section-a">
+                <div class="project-container">
+                    <form onsubmit="submitData(event)">
+                        <div>
+                            <h2>ADD MY PROJECT</h2>
+                            <div>
+                                <label for="in-project-name">Project Name</label>
+                                <input id="in-project-name" />
+                            </div>
+                            <div class="date">
+                                <div class="start-left">
+                                    <label for="in-start-date">Start Date</label>
+                                    <input type="date" id="in-start-date">
+                                </div>
+                                <div class="start-right">
+                                    <label for="in-end-date">End Date</label>
+                                    <input type="date" id="in-end-date">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="in-project-description">Description</label>
+                                <textarea id="in-project-description"></textarea>
+                            </div>
+                            <div>
+                                <label>Technologies</label>
+                                <div>
+                                    <table class="tech-choice">
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="radio" name="tech" id="in-nodejs">
+                                                    <label for="in-nodejs">Node Js</label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="radio" name="tech" id="in-nextjs">
+                                                    <label for="in-nextjs">Next Js</label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <input type="radio" name="tech" id="in-reactjs">
+                                                <label for="in-reactjs">React Js</label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <input type="radio" name="tech" id="in-typescr">
+                                                <label for="in-typescr">Typescript</label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label>Upload Image</label>
+                                <div class="in-project-image-group">
+                                    <label for="in-project-image">
+                                        <label style="padding:5px">Choose</label>
+                                        <img src="./assets/file.png" alt="file" />
+                                    </label>
+                                  <input type="file" id="in-project-image" hidden />
+                                </div>
+                            </div>
+                            
+                            <div class="submit-btn">
+                                <button>Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="section-post">
+                <h2>MY PROJECT</h2>
+                <div class="project-posts">
+                    <div class="post-1">
+                        <div class="p-image">
+                            <img src="./assets/post1.jpg" alt="post-1-image" />
+                        </div>
+                        <a href="./project-detail.html" >
+                            <h3 class="p-title">Project OpenAI</h3>
+                        </a>
+                        <label for="p-duration">Duration :</label>
+                        <p class="p-duration">12 Months</p>
+                        <p class="p-description">
+                            AI has been a hot topic in the last few weeks. As technology improves month to month,...
+                        </p>
+                        <p class="p-tech-icon">
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </p>
+                        <div class="p-btn">
+                            <input type="button" value="Edit" />
+                            <input type="button" value="Delete" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./assets/js/project.js"></script>
+</html>
